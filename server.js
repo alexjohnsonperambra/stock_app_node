@@ -39,10 +39,10 @@ var request = require('request');
 var path = require('path')
 
 var con = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "Tms@1234",
-  database:'stock_db'
+  host: "sql6.freemysqlhosting.net",
+  user: "sql6418792",
+  password: "llMZ42G9MK",
+  database:'sql6418792'
 });
 
 app.use(session({
